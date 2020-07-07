@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: myapp
+spec:
+  namespace: lamp-app
+  selector:
+    type: mysql
+  ports:
+  - port: 3306
+    targetPort: 3306
+    name: lamp-mysql

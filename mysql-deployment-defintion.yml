@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: lamp-apache
+  labels:
+    name: myapp-msql
+    app: lamp
+    type: mysql
+spec:
+  namespace: lamp-app
+  containers:
+  - name: lamp-mysql-db
+    image: my-mysql
+    resources:
+      limits:
+        memory: "128Mi"
+        cpu: "500m"
+    ports:
+      - containerPort: 3306
