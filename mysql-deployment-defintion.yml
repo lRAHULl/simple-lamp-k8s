@@ -7,7 +7,6 @@ metadata:
     app: lamp
     type: mysql
 spec:
-  namespace: lamp-app
   containers:
   - name: lamp-mysql-db
     image: my-mysql
