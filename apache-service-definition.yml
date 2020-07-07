@@ -3,7 +3,6 @@ kind: Service
 metadata:
   name: myapp
 spec:
-  namespace: lamp-app
   selector:
     type: apache
   ports:
