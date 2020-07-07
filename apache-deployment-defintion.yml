@@ -8,7 +8,7 @@ metadata:
     type: apache
 spec:
   containers:
-  - name: lamp-apache
+  - name: rahulraju/lamp-apache
     image: my-apache
     resources:
       limits:
