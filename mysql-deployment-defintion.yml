@@ -9,7 +9,7 @@ metadata:
 spec:
   containers:
   - name: lamp-mysql-db
-    image: my-mysql
+    image: rahulraju/lamp-mysql
     resources:
       limits:
         memory: "128Mi"
