@@ -7,7 +7,6 @@ metadata:
     app: lamp
     type: apache
 spec:
-  namespace: lamp-app
   containers:
   - name: lamp-apache
     image: my-apache
