@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: lamp-apache
+  name: lamp-mysql-pod
   labels:
     name: myapp-msql
     app: lamp
