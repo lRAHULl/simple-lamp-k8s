@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: lamp-apache
+  name: lamp-apache-pod
   labels:
     name: myapp-apache
     app: lamp
