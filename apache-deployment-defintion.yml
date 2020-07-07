@@ -8,8 +8,8 @@ metadata:
     type: apache
 spec:
   containers:
-  - name: rahulraju/lamp-apache
-    image: my-apache
+  - name: lamp-apache-server
+    image: rahulraju/lamp-apache
     resources:
       limits:
         memory: "128Mi"
